@@ -1,0 +1,25 @@
+html {
+  font-size: 20px;
+}
+.skyblue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+body{
+ text-align: center;
+ font-family: "Arial", "Meiryo", sans-serif;
+}
+
+h1{
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  letter-spacing: 1.2em;
+  font-family: 'Josefin Sans', "Arial", "Meiryo", sans-serif; /* フォント種類の追加 */
+  font-size: 2rem;
+}
+#basic h2 + p {
+  font-weight: bold;
+}
